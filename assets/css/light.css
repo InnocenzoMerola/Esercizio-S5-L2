@@ -6,3 +6,15 @@ body {
 .det-text {
   color: black;
 }
+
+.author {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cover {
+  height: 42vh;
+  object-fit: contain;
+  padding-block: 0.5rem;
+}

@@ -2,6 +2,7 @@
 
 include __DIR__ . "/includes/db.php";
 
+
 $stmt = $pdo->prepare('SELECT * FROM libri');
 $stmt->execute();
 $libri = $stmt->fetchAll();
